@@ -1,14 +1,13 @@
 package main
 
 import (
-	"log"
-
-	ht "github.com/openpixelsystems/ops-hal-config-tool/internal/types"
+	"github.com/openpixelsystems/ops-hal-config-tool/internal/types"
+	"github.com/openpixelsystems/ops-hal-config-tool/internal/cli"
 )
 
 func main() {
-	var clk ht.InputClk
+	var clk types.InputClk
 	clk.Name = "test"
 
-	log.Print(clk)
+	cli.RunCLI()
 }
