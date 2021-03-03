@@ -32,6 +32,10 @@ var clkSelection = SuggestionSelection{
 	},
 }
 
+var newInClkSelection = SuggestionSelection{
+	Name : "newinclk",
+}
+
 var activeSelection = clkSelection
 
 func swapSelection(selection SuggestionSelection) {
